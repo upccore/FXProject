@@ -1,23 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.fxproject.FXProjectController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="606.0" prefWidth="574.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.fxproject.FXProjectController">
    <children>
-      <Button fx:id="nextButton" layoutX="254.0" layoutY="322.0" mnemonicParsing="false" onAction="#onNextButtonClick" prefHeight="50.0" prefWidth="91.0" text="Далее">
-         <font>
-            <Font size="21.0" />
-         </font>
-      </Button>
-      <TextArea fx:id="textArea" layoutX="72.0" layoutY="117.0" prefHeight="186.0" prefWidth="458.0" AnchorPane.bottomAnchor="95.0" AnchorPane.leftAnchor="70.0" AnchorPane.rightAnchor="70.0" AnchorPane.topAnchor="90.0" />
-      <Label fx:id="mainText" layoutX="100.0" layoutY="33.0" prefHeight="26.0" prefWidth="386.0" text="Введите имя и фамилию клиента" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="100.0" AnchorPane.topAnchor="20.0">
-         <font>
-            <Font size="25.0" />
-         </font>
-      </Label>
+      <Label layoutX="27.0" layoutY="24.0" text="Фамилия и Имя" />
+      <Label layoutX="28.0" layoutY="58.0" text="Возраст" />
+      <Label layoutX="28.0" layoutY="91.0" text="Пол" />
+      <TextField fx:id="nameTextArea" layoutX="126.0" layoutY="20.0" />
+      <TextField fx:id="ageTextArea" layoutX="127.0" layoutY="54.0" />
+      <ComboBox fx:id="comboList" layoutX="127.0" layoutY="87.0" prefWidth="150.0" promptText="Пол" />
+      <Button layoutX="217.0" layoutY="558.0" mnemonicParsing="false" onAction="#onSaveButton" prefHeight="26.0" prefWidth="140.0" text="Сохранить данные" />
    </children>
 </AnchorPane>
