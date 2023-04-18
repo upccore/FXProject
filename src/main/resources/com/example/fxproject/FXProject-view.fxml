@@ -32,16 +32,16 @@
       <CheckBox fx:id="mppVnutRef" layoutX="27.0" layoutY="431.0" mnemonicParsing="false" text="Внутренняя референция" />
       <CheckBox fx:id="mppActiv" layoutX="27.0" layoutY="459.0" mnemonicParsing="false" text="Активный" />
       <CheckBox fx:id="mppRefleks" layoutX="27.0" layoutY="477.0" mnemonicParsing="false" text="Рефлексия" />
-      <CheckBox layoutX="229.0" layoutY="312.0" mnemonicParsing="false" text="Предпочтение к ПРОШЛОМУ" />
-      <CheckBox layoutX="229.0" layoutY="330.0" mnemonicParsing="false" text="предпочтения к НАСТОЯЩЕМУ" />
-      <CheckBox layoutX="229.0" layoutY="348.0" mnemonicParsing="false" text="предпочтение к БУДУЩЕМУ" />
+      <CheckBox fx:id="mppProshloe" layoutX="229.0" layoutY="312.0" mnemonicParsing="false" text="Предпочтение к ПРОШЛОМУ" />
+      <CheckBox fx:id="mppNast" layoutX="229.0" layoutY="330.0" mnemonicParsing="false" text="предпочтения к НАСТОЯЩЕМУ" />
+      <CheckBox fx:id="mppBudushee" layoutX="229.0" layoutY="348.0" mnemonicParsing="false" text="предпочтение к БУДУЩЕМУ" />
       <CheckBox layoutX="-166.0" layoutY="225.0" mnemonicParsing="false" text="CheckBox" />
-      <CheckBox layoutX="229.0" layoutY="378.0" mnemonicParsing="false" text="Мотивация |К|" />
-      <CheckBox layoutX="229.0" layoutY="396.0" mnemonicParsing="false" text="Мотивация |ОТ|" />
-      <CheckBox layoutX="229.0" layoutY="429.0" mnemonicParsing="false" text="Общее (глобальное)" />
-      <CheckBox layoutX="229.0" layoutY="447.0" mnemonicParsing="false" text="Детали (специфичное)" />
-      <CheckBox layoutX="229.0" layoutY="477.0" mnemonicParsing="false" text="Процедура" />
-      <CheckBox layoutX="229.0" layoutY="495.0" mnemonicParsing="false" text="Возможности" />
+      <CheckBox fx:id="mppK" layoutX="229.0" layoutY="378.0" mnemonicParsing="false" text="Мотивация |К|" />
+      <CheckBox fx:id="mppOt" layoutX="229.0" layoutY="396.0" mnemonicParsing="false" text="Мотивация |ОТ|" />
+      <CheckBox fx:id="mppObshee" layoutX="229.0" layoutY="429.0" mnemonicParsing="false" text="Общее (глобальное)" />
+      <CheckBox fx:id="mppDetails" layoutX="229.0" layoutY="447.0" mnemonicParsing="false" text="Детали (специфичное)" />
+      <CheckBox fx:id="mppProced" layoutX="229.0" layoutY="477.0" mnemonicParsing="false" text="Процедура" />
+      <CheckBox fx:id="mppVozmojn" layoutX="229.0" layoutY="495.0" mnemonicParsing="false" text="Возможности" />
       <Label layoutX="26.0" layoutY="534.0" text="Нейрологические уровни " />
       <CheckBox layoutX="25.0" layoutY="561.0" mnemonicParsing="false" text="Окружение" />
       <CheckBox layoutX="25.0" layoutY="579.0" mnemonicParsing="false" text="Поведение" />

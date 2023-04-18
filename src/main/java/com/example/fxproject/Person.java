@@ -6,10 +6,12 @@ public class Person {
     private String age;
     private String city;
     private String education;
+
     private String representSystemVisual;
     private String representSystemAudio;
     private String representSystemKinestetic;
     private String representSystemAudiodigit;
+
     private String mppActiv;
     private String mppDrugie;
     private String mppRazlichie;
@@ -18,6 +20,89 @@ public class Person {
     private String mppShodstvo;
     private String mppVneshRef;
     private String mppVnutRef;
+    private String mppProshloe;
+    private String mppNast;
+    private String mppBudushee;
+    private String mppK;
+    private String mppOt;
+    private String mppObshee;
+    private String mppDetails;
+    private String mppProced;
+    private String mppVozmojn;
+
+    public String getMppProced() {
+        return mppProced;
+    }
+
+    public void setMppProced(String mppProced) {
+        this.mppProced = mppProced;
+    }
+
+    public String getMppVozmojn() {
+        return mppVozmojn;
+    }
+
+    public void setMppVozmojn(String mppVozmojn) {
+        this.mppVozmojn = mppVozmojn;
+    }
+
+    public String getMppObshee() {
+        return mppObshee;
+    }
+
+    public void setMppObshee(String mppObshee) {
+        this.mppObshee = mppObshee;
+    }
+
+    public String getMppDetails() {
+        return mppDetails;
+    }
+
+    public void setMppDetails(String mppDetails) {
+        this.mppDetails = mppDetails;
+    }
+
+
+    public String getMppK() {
+        return mppK;
+    }
+
+    public void setMppK(String mppK) {
+        this.mppK = mppK;
+    }
+
+    public String getMppOt() {
+        return mppOt;
+    }
+
+    public void setMppOt(String mppOt) {
+        this.mppOt = mppOt;
+    }
+
+    public String getMppProshloe() {
+        return mppProshloe;
+    }
+
+    public void setMppProshloe(String mppProshloe) {
+        this.mppProshloe = mppProshloe;
+    }
+
+    public String getMppNast() {
+        return mppNast;
+    }
+
+    public void setMppNast(String mppNast) {
+        this.mppNast = mppNast;
+    }
+
+    public String getMppBudushee() {
+        return mppBudushee;
+    }
+
+    public void setMppBudushee(String mppBudushee) {
+        this.mppBudushee = mppBudushee;
+    }
+
     public String getMppActiv() {
         return mppActiv;
     }
