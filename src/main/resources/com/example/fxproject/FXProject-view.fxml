@@ -43,11 +43,11 @@
       <CheckBox fx:id="mppProced" layoutX="229.0" layoutY="477.0" mnemonicParsing="false" text="Процедура" />
       <CheckBox fx:id="mppVozmojn" layoutX="229.0" layoutY="495.0" mnemonicParsing="false" text="Возможности" />
       <Label layoutX="26.0" layoutY="534.0" text="Нейрологические уровни " />
-      <CheckBox layoutX="25.0" layoutY="561.0" mnemonicParsing="false" text="Окружение" />
-      <CheckBox layoutX="25.0" layoutY="579.0" mnemonicParsing="false" text="Поведение" />
-      <CheckBox layoutX="25.0" layoutY="597.0" mnemonicParsing="false" text="Способности" />
-      <CheckBox layoutX="229.0" layoutY="561.0" mnemonicParsing="false" text="Ценности и убеждения" />
-      <CheckBox layoutX="229.0" layoutY="579.0" mnemonicParsing="false" text="Личная идентификация" />
-      <CheckBox layoutX="229.0" layoutY="597.0" mnemonicParsing="false" text="Миссия" />
+      <CheckBox fx:id="nyOkrujenie" layoutX="25.0" layoutY="561.0" mnemonicParsing="false" text="Окружение" />
+      <CheckBox fx:id="nyPovedenie" layoutX="25.0" layoutY="579.0" mnemonicParsing="false" text="Поведение" />
+      <CheckBox fx:id="nySposobnosti" layoutX="25.0" layoutY="597.0" mnemonicParsing="false" text="Способности" />
+      <CheckBox fx:id="nyCennosti" layoutX="229.0" layoutY="561.0" mnemonicParsing="false" text="Ценности и убеждения" />
+      <CheckBox fx:id="nyId" layoutX="229.0" layoutY="579.0" mnemonicParsing="false" text="Личная идентификация" />
+      <CheckBox fx:id="nyMission" layoutX="229.0" layoutY="597.0" mnemonicParsing="false" text="Миссия" />
    </children>
 </AnchorPane>

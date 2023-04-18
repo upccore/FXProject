@@ -69,6 +69,19 @@ public class FXProjectController {
     private CheckBox mppVozmojn;
 
     @FXML
+    private CheckBox nyOkrujenie;
+    @FXML
+    private CheckBox nyPovedenie;
+    @FXML
+    private CheckBox nySposobnosti;
+    @FXML
+    private CheckBox nyCennosti;
+    @FXML
+    private CheckBox nyId;
+    @FXML
+    private CheckBox nyMission;
+
+    @FXML
     void onSaveButton() {
 
         person.setName(nameTextArea.getText());
@@ -141,6 +154,25 @@ public class FXProjectController {
             person.setMppVozmojn("Возможности");
         }
 
+        if (nyOkrujenie.isSelected()) {
+            person.setNyOkrujenie("Окружение");
+        }
+        if (nyPovedenie.isSelected()) {
+            person.setNyPovedenie("Поведение");
+        }
+        if (nySposobnosti.isSelected()) {
+            person.setNySposobnosti("Способности");
+        }
+        if (nyCennosti.isSelected()) {
+            person.setNyCennosti("Ценности и убеждения");
+        }
+        if (nyId.isSelected()) {
+            person.setNyId("Личная идентификация");
+        }
+        if (nyMission.isSelected()) {
+            person.setNyMission("Миссия");
+        }
+
         result.append("Имя и фамилия: ").append(person.getName()).append("\n");
         result.append("\n");
         result.append("Возраст: ").append(person.getAge()).append("\n");
@@ -149,6 +181,7 @@ public class FXProjectController {
         result.append("\n");
 
         result.append("Ведущая репрезентативная система:").append("\n");
+        result.append("\n");
         if (person.getRepresentSystemVisual() != null) {
             result.append("\t").append(person.getRepresentSystemVisual()).append("\n");
         }
@@ -164,6 +197,7 @@ public class FXProjectController {
         result.append("\n");
 
         result.append("Метапрограмный профиль:").append("\n");
+        result.append("\n");
         if (person.getMppShodstvo() != null) {
             result.append("\t").append(person.getMppShodstvo()).append("\n");
         }
@@ -223,6 +257,27 @@ public class FXProjectController {
             result.append("\t").append(person.getMppVozmojn()).append("\n");
         }
         result.append("\n");
+
+        result.append("Нейрологические уровни:").append("\n");
+        result.append("\n");
+        if (person.getNyOkrujenie() != null) {
+            result.append("\t").append(person.getNyOkrujenie()).append("\n");
+        }
+        if (person.getNyPovedenie() != null) {
+            result.append("\t").append(person.getNyPovedenie()).append("\n");
+        }
+        if (person.getNySposobnosti() != null) {
+            result.append("\t").append(person.getNySposobnosti()).append("\n");
+        }
+        if (person.getNyCennosti() != null) {
+            result.append("\t").append(person.getNyCennosti()).append("\n");
+        }
+        if (person.getNyId() != null) {
+            result.append("\t").append(person.getNyId()).append("\n");
+        }
+        if (person.getNyMission() != null) {
+            result.append("\t").append(person.getNyMission()).append("\n");
+        }
 
         File file = new File("C:\\Users\\upcco\\OneDrive\\Рабочий стол\\" + person.getName() + ".txt");
         try (FileWriter fileWriter = new FileWriter(file)) {

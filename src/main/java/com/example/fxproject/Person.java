@@ -1,5 +1,8 @@
 package com.example.fxproject;
 
+import javafx.fxml.FXML;
+import javafx.scene.control.CheckBox;
+
 public class Person {
 
     private String name;
@@ -30,12 +33,59 @@ public class Person {
     private String mppProced;
     private String mppVozmojn;
 
-    public String getMppProced() {
-        return mppProced;
+    private String nyOkrujenie;
+    private String nyPovedenie;
+    private String nySposobnosti;
+    private String nyCennosti;
+    private String nyId;
+    private String nyMission;
+
+    public String getNyOkrujenie() {
+        return nyOkrujenie;
     }
 
-    public void setMppProced(String mppProced) {
-        this.mppProced = mppProced;
+    public void setNyOkrujenie(String nyOkrujenie) {
+        this.nyOkrujenie = nyOkrujenie;
+    }
+
+    public String getNyPovedenie() {
+        return nyPovedenie;
+    }
+
+    public void setNyPovedenie(String nyPovedenie) {
+        this.nyPovedenie = nyPovedenie;
+    }
+
+    public String getNySposobnosti() {
+        return nySposobnosti;
+    }
+
+    public void setNySposobnosti(String nySposobnosti) {
+        this.nySposobnosti = nySposobnosti;
+    }
+
+    public String getNyCennosti() {
+        return nyCennosti;
+    }
+
+    public void setNyCennosti(String nyCennosti) {
+        this.nyCennosti = nyCennosti;
+    }
+
+    public String getNyId() {
+        return nyId;
+    }
+
+    public void setNyId(String nyId) {
+        this.nyId = nyId;
+    }
+
+    public String getNyMission() {
+        return nyMission;
+    }
+
+    public void setNyMission(String nyMission) {
+        this.nyMission = nyMission;
     }
 
     public String getMppVozmojn() {
@@ -44,6 +94,14 @@ public class Person {
 
     public void setMppVozmojn(String mppVozmojn) {
         this.mppVozmojn = mppVozmojn;
+    }
+
+    public String getMppProced() {
+        return mppProced;
+    }
+
+    public void setMppProced(String mppProced) {
+        this.mppProced = mppProced;
     }
 
     public String getMppObshee() {
