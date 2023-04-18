@@ -10,6 +10,77 @@ public class Person {
     private String representSystemAudio;
     private String representSystemKinestetic;
     private String representSystemAudiodigit;
+    private String mppActiv;
+    private String mppDrugie;
+    private String mppRazlichie;
+    private String mppRefleks;
+    private String mppSam;
+    private String mppShodstvo;
+    private String mppVneshRef;
+    private String mppVnutRef;
+    public String getMppActiv() {
+        return mppActiv;
+    }
+
+    public void setMppActiv(String mppActiv) {
+        this.mppActiv = mppActiv;
+    }
+
+    public String getMppDrugie() {
+        return mppDrugie;
+    }
+
+    public void setMppDrugie(String mppDrugie) {
+        this.mppDrugie = mppDrugie;
+    }
+
+    public String getMppRazlichie() {
+        return mppRazlichie;
+    }
+
+    public void setMppRazlichie(String mppRazlichie) {
+        this.mppRazlichie = mppRazlichie;
+    }
+
+    public String getMppRefleks() {
+        return mppRefleks;
+    }
+
+    public void setMppRefleks(String mppRefleks) {
+        this.mppRefleks = mppRefleks;
+    }
+
+    public String getMppSam() {
+        return mppSam;
+    }
+
+    public void setMppSam(String mppSam) {
+        this.mppSam = mppSam;
+    }
+
+    public String getMppShodstvo() {
+        return mppShodstvo;
+    }
+
+    public void setMppShodstvo(String mppShodstvo) {
+        this.mppShodstvo = mppShodstvo;
+    }
+
+    public String getMppVneshRef() {
+        return mppVneshRef;
+    }
+
+    public void setMppVneshRef(String mppVneshRef) {
+        this.mppVneshRef = mppVneshRef;
+    }
+
+    public String getMppVnutRef() {
+        return mppVnutRef;
+    }
+
+    public void setMppVnutRef(String mppVnutRef) {
+        this.mppVnutRef = mppVnutRef;
+    }
 
     public String getRepresentSystemVisual() {
         return representSystemVisual;
